@@ -1,0 +1,105 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+
+/* Header */
+.header-content {
+    background-image: url(https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80);
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+
+
+.navbar {
+    align-items: center;
+    display: flex;
+    background-color: black;
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    padding: 25px;
+    justify-content: center;
+    top: 0;
+}
+
+
+.logo {
+    color: white;
+    margin-right: 150px;
+}
+
+.menu-1 {
+    margin-left: 40px;
+
+    
+}
+
+.menu-2 {
+    margin-left: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.menu-item {
+    color: #D8E9A8;
+    font-size: 20px;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    color: #1E5128;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    padding: 10px;
+    background-color: #1E5128;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #4E9F3D;
+    color: white;
+}
+
+/* NFT List */
+
+.nft-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
